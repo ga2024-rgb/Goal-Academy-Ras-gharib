@@ -1,0 +1,81 @@
+media:
+  input: images
+  output: images
+content:
+  - name: news
+    label: الأخبار
+    type: file
+    format: json
+    path: data/news.json
+    fields:
+      - name: items
+        label: الأخبار
+        type: object
+        list: true
+        fields:
+          - { name: date, label: التاريخ, type: string }
+          - { name: title, label: العنوان, type: string }
+          - { name: text, label: النص, type: text }
+          - { name: image, label: صورة (اختياري), type: image }
+  - name: schedule
+    label: المواعيد
+    type: file
+    format: json
+    path: data/schedule.json
+    fields:
+      - { name: days, label: الأيام, type: string }
+      - { name: place, label: المكان, type: string }
+      - { name: note, label: ملاحظة, type: text }
+      - name: groups
+        label: المجموعات
+        type: object
+        list: true
+        fields:
+          - { name: name, label: اسم المجموعة, type: string }
+          - { name: time, label: الميعاد, type: string }
+  - name: coaches
+    label: المدربين
+    type: file
+    format: json
+    path: data/coaches.json
+    fields:
+      - name: items
+        label: المدربين
+        type: object
+        list: true
+        fields:
+          - { name: name, label: الاسم, type: string }
+          - { name: role, label: الصفة, type: string }
+          - { name: photo, label: الصورة, type: image }
+  - name: kits
+    label: الأطقم
+    type: file
+    format: json
+    path: data/kits.json
+    fields:
+      - name: items
+        label: الأطقم
+        type: object
+        list: true
+        fields:
+          - { name: title, label: اسم الطقم, type: string }
+          - name: shape
+            label: شكل الصورة
+            type: select
+            options:
+              values:
+                - { value: w, label: عرضية }
+                - { value: p, label: طولية }
+          - { name: photo, label: الصورة, type: image }
+  - name: gallery
+    label: صور اللاعبين
+    type: file
+    format: json
+    path: data/gallery.json
+    fields:
+      - name: items
+        label: الصور
+        type: object
+        list: true
+        fields:
+          - { name: photo, label: الصورة, type: image }

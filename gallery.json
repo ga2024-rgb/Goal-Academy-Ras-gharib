@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "photo": "images/kid1.jpg"
+    },
+    {
+      "photo": "images/kid2.jpg"
+    },
+    {
+      "photo": "images/kid3.jpg"
+    },
+    {
+      "photo": "images/kid4.jpg"
+    },
+    {
+      "photo": "images/kid5.jpg"
+    }
+  ]
+}

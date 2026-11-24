@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "title": "الطقم الأساسي ٢٠٢٤",
+      "shape": "w",
+      "photo": "images/kit-home-2024.jpg"
+    },
+    {
+      "title": "الطقم الاحتياطي ٢٠٢٤",
+      "shape": "w",
+      "photo": "images/kit-away-2024.jpg"
+    },
+    {
+      "title": "الطقم الأساسي ٢٠٢٦",
+      "shape": "p",
+      "photo": "images/kit-home-2026.jpg"
+    },
+    {
+      "title": "الطقم الاحتياطي ٢٠٢٦",
+      "shape": "p",
+      "photo": "images/kit-away-2026.jpg"
+    },
+    {
+      "title": "ترنج الأكاديمية",
+      "shape": "p",
+      "photo": "images/kit-track.jpg"
+    }
+  ]
+}

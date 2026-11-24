@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "name": "أحمد خميس",
+      "role": "مدرب",
+      "photo": "images/coach-ahmed-khames.jpg"
+    },
+    {
+      "name": "محمد الراوي",
+      "role": "مدرب",
+      "photo": "images/coach-mohamed-elrawy.jpg"
+    },
+    {
+      "name": "كمال محمد",
+      "role": "مدرب",
+      "photo": "images/coach-kamal-mohammed.jpg"
+    },
+    {
+      "name": "محمد زمر",
+      "role": "مدرب",
+      "photo": "images/coach-mohamed-zamar.jpg"
+    },
+    {
+      "name": "يحيى",
+      "role": "مدرب",
+      "photo": "images/coach-yahya.jpg"
+    },
+    {
+      "name": "محمود مبارك",
+      "role": "مدرب · رخصة CAF C",
+      "photo": "images/coach-mahmoud-moubarak.jpg"
+    },
+    {
+      "name": "أحمد السمري",
+      "role": "مدرب",
+      "photo": "images/coach-ahmed-elsemary.jpg"
+    },
+    {
+      "name": "محمد فتحي",
+      "role": "مدرب",
+      "photo": "images/coach-mohamed-fathy.jpg"
+    },
+    {
+      "name": "محمد عطية",
+      "role": "مدرب",
+      "photo": "images/coach-mohammed-attia.jpg"
+    },
+    {
+      "name": "أنس خليل",
+      "role": "مدرب",
+      "photo": "images/coach-anas-khalil.jpg"
+    },
+    {
+      "name": "محمد مهنا",
+      "role": "مدرب",
+      "photo": "images/coach-mohamed-mhana.jpg"
+    }
+  ]
+}
